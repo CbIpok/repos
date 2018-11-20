@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\StudyData">
+      <UniqueIdentifier>{390a1333-0836-4fb6-8ec9-24a1676fef75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StudyDataReader">
+      <UniqueIdentifier>{fc6dabd7-ad95-41da-a5f7-c3dfc17aab3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StudyData">
+      <UniqueIdentifier>{b8aae0ed-1246-4fff-baad-c55fe44c066e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StudyDataReader">
+      <UniqueIdentifier>{173b0f6a-04fe-48dd-bcc4-ab0c4fe2a7c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Course.cpp">
+      <Filter>Source Files\StudyData</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseReader.cpp">
+      <Filter>Source Files\StudyDataReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Source Files\StudyData</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentReader.cpp">
+      <Filter>Source Files\StudyDataReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher.cpp">
+      <Filter>Source Files\StudyData</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherReader.cpp">
+      <Filter>Source Files\StudyDataReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StudyData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseReader.h">
+      <Filter>Header Files\StudyDataReader</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentReader.h">
+      <Filter>Header Files\StudyDataReader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherReader.h">
+      <Filter>Header Files\StudyDataReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Course.h">
+      <Filter>Header Files\StudyData</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Header Files\StudyData</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher.h">
+      <Filter>Header Files\StudyData</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyDataReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
