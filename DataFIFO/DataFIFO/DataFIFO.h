@@ -1,6 +1,7 @@
+#pragma once
 #include <deque>
 #include <mutex>
-#pragma once
+
 class DataFIFO final
 {
 public:
@@ -11,9 +12,7 @@ public:
 	void * getReady(size_t & size);
 	void addFree(void * data); 
 private:
-	std::mutex _BlockSizeInfoMutex;
-	std::mutex _FIFOisReading;
-	std::mutex _FIFOisWriting;
+	std::mutex mutex;
 	bool _isReadBlockRented = false;
 	bool _isWriteBlockRented = false;
 	bool _isSpaceAvailable(size_t size);
@@ -23,5 +22,8 @@ private:
 	size_t _start;
 	size_t _end;
 	char* _buffer;
+
+	bool isEndOfBuffer();
+	bool isPossibleToWrite(size_t size);
 };
 
